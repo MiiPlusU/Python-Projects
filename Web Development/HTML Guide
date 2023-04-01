@@ -1,0 +1,42 @@
+<h1>hello</h1> opening tag and closing tag, in the middle is content
+<br> self closing tab
+
+<h2 size="3"> first part is html element, second part is html attribute </h2>
+
+
+<!--
+    comments in html
+-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>😂 Ishmael's Personal Site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+
+
+Boilerplate is similar to having a code template that you can reuse
+<!DOCTYPE html> tells the browser what version of html to use
+the <head></head> holds information about the webpage like the title
+<meta charset="utf-8"> this section is the standard for website encoding for hmtl5 sites
+becuase it encodes for all international symbols in the unicode character set,
+gives your website a good chance of being rendered on browsers from international customers
+Serach engines crawl the html of your site and look for certain meta tags
+in order to know what your website is about and how to display it in their
+search index
