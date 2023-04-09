@@ -594,3 +594,17 @@ some modules cannot be imported
 turtle is packaged with the Python standard library, some modules are not
 tuple elements cannot be changed
 Use case, elements you dont want change is where you'd use a tuple, ie a website color
+
+
+#file input output
+mode = r,w,a
+opening a file that doesn't exist in write mode will create it
+file methods
+with open as file:
+readlines(): read each file line as a list
+read() read contents of file
+write() write contents of file
+strip() remove spaces
+replace(old string,new string)
+close() close file
+open() open file before reading and closing
