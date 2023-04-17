@@ -608,3 +608,35 @@ strip() remove spaces
 replace(old string,new string)
 close() close file
 open() open file before reading and closing
+
+
+Pandas
+Series (1 dimensional) its like a single column in your list
+Dataframe (2 dimensional) equivalent of a table, multi columns
+# #get data in columns
+# print(data["condition"])
+# print(data.condition)
+
+# get data in rows
+data[data.temp == "Monday"]
+print(data[data.temp == max(data.temp)])
+print(data["temp"].max())
+print(data.temp.max())
+
+# create dataframe from scratch
+data_dict = {
+    "students":["Any", "James", "Angela"],
+    "scores": [76, 56, 65]
+}
+data= pandas.Dataframe(data_dict)
+
+#convert to csv and create a csv file
+data.to_csv("new_data.csv")
+
+
+
+
+
+
+A virutal environment is a self contained environemnt with its own unique directory tree
+command slash comments out blocks of code
