@@ -79,6 +79,7 @@ v2 automate
 Cleanup
 run which Python to check the dir of your venv and delete
 Deleteing venv just involves deleting folder
+sudo rm -rf venv
 
 Extra tips
 to port your phone number you have to upgrade twilio acct
